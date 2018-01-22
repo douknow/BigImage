@@ -1,0 +1,26 @@
+{
+  "name": "Big image",
+  "description": "Show big image when the mouse hover image.",
+  "version": "0.1",
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["styles/main.css"],
+      "js": ["scripts/main.js"]
+    },
+    {
+      "matches": ["https://weibo.com/*"],
+      "css": ["styles/weibo.css"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "images/48.png"
+  }
+}

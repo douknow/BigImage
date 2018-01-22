@@ -1,0 +1,3 @@
+.WB_feed_v3 .WB_media_a li:after {
+  content: none !important;
+}
