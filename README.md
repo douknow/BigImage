@@ -4,8 +4,8 @@ Show big image when your mouse move onto image.
 
 # 使用方法
 
-打开 chrome 输入：(chrome://extensions)[chrome://extensions]
+打开 chrome 输入：[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
 
-勾选右边的开发者模式后点击**加载已解压的扩展程序**
+勾选右边的**开发者模式**后点击**加载已解压的扩展程序**
 
 选择目录下的 src 文件夹即可
